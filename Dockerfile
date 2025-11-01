@@ -1,5 +1,5 @@
-# Usar Node.js 18 Alpine
-FROM node:18-alpine
+# Usar Node.js 20 Alpine (requerido por Angular 20)
+FROM node:20-alpine
 
 # Establecer directorio de trabajo
 WORKDIR /app
